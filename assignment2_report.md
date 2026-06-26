@@ -110,6 +110,8 @@ The full Great Expectations Data Docs HTML report was generated and saved at:
 
 ## 5. Data Quality Issues Found
 
+![Data Quality Issues Result - Terminal Output](screenshots/data_quality_issues.png)
+
 | # | Column          | Expectation                     | Count           | % of Rows | Status  |
 | - | --------------- | ------------------------------- | --------------- | --------- | ------- |
 | 1 | `customer_id` | Not null                        | 150             | 3.0%      | ❌ FAIL |
