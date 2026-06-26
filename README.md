@@ -29,7 +29,7 @@ Assignment2/
 
 1. **Clone the repository**
    ```
-   git clone <repo-url>
+   git clone https://github.com/ritikalal911/mlops-assignment2-data-validation.git
    cd Assignment2
    ```
 
