@@ -1,0 +1,105 @@
+{
+  "expectations": [
+    {
+      "id": "87efb1ad-ba07-4fb6-8e47-3c8897dc0aee",
+      "kwargs": {
+        "column": "customer_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "92026693-cace-4c5d-82ee-7ef9627beb69",
+      "kwargs": {
+        "column": "customer_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_unique"
+    },
+    {
+      "id": "e1773323-cf91-4b00-81cf-0bcf9f8da373",
+      "kwargs": {
+        "column": "age",
+        "max_value": 120.0,
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "913072f0-1416-4d04-a9e5-8bef5211ae44",
+      "kwargs": {
+        "column": "email",
+        "regex": "^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_match_regex"
+    },
+    {
+      "id": "d0e01fb0-2bce-43c0-8910-d5907ce9ab51",
+      "kwargs": {
+        "column": "salary",
+        "mostly": 0.95
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "99f9ccd3-3f13-4420-ae8b-cbd99489fd0c",
+      "kwargs": {
+        "column": "country",
+        "value_set": [
+          "USA",
+          "Canada",
+          "UK",
+          "Australia"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "cacc0e78-7100-4b14-815a-b3c32ada60ef",
+      "kwargs": {
+        "column": "signup_date",
+        "regex": "^\\d{1,2}/\\d{1,2}/\\d{4}$|^\\d{4}-\\d{2}-\\d{2}$"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_match_regex"
+    },
+    {
+      "id": "df8c285d-39d9-4fdf-af2c-0b7df3a313c9",
+      "kwargs": {
+        "column": "phone",
+        "mostly": 0.8,
+        "regex": "^\\(?\\d{3}\\)?[\\s.\\-]?\\d{3}[\\s.\\-]?\\d{4}$"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_match_regex"
+    },
+    {
+      "id": "898e12f1-4929-42ea-bfa7-672cb87a63e6",
+      "kwargs": {
+        "max_value": 1000,
+        "min_value": 500
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_table_row_count_to_be_between"
+    }
+  ],
+  "id": "0944286b-9a15-40f2-a64e-681f973a890f",
+  "meta": {
+    "great_expectations_version": "1.18.2"
+  },
+  "name": "customer_data_expectations",
+  "notes": null
+}
