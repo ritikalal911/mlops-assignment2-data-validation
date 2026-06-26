@@ -1,6 +1,6 @@
-# MAI201 — Assignment 2: Data Validation & Testing
+# MAI201: Assignment 2: Data Validation & Testing
 
-Individual assignment for MAI201: MLOps, validating a messy customer dataset using **Great Expectations** and testing supporting utility functions with **pytest**. No model training is involved — this focuses entirely on the data validation component of an MLOps pipeline.
+Validating a messy customer dataset using **Great Expectations** and testing supporting utility functions with **pytest**. No model training is involved - this focuses entirely on the data validation component of an MLOps pipeline.
 
 ## Repository Structure
 
